@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img\delhi.jpg">
+    <title>DELHI</title>
+    <style>
+        nav a:link {
+            text-decoration: none;
+            color: black;
+        }
+        nav a:hover {
+            text-decoration: none;
+            background-color: rgba(73, 162, 234, 0.769);
+            border-radius: 20px;
+            
+            
+            transition: all .6s ease;
+        }
+        .heritage{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            background-color: rgba(173, 216, 230, 0.222); 
+            border-radius: 20px;
+        }
+        .heritage img{
+            height: 300px;
+            width: 300px;
+            border: 5px solid rgb(45, 0, 0);
+            border-radius: 5px;
+            margin: 10px;
+        }
+        .container{
+            position: relative;
+        }
+        
+        .heritage img:hover{
+            border: 5px solid rgba(0, 0, 0, 0.679);
+            opacity: 0.7;
+            cursor: pointer;
+        }
+        .container div{
+            position: absolute;
+            top: 25px;
+            left: 15px;
+            background: black;
+            color: white;
+            margin-bottom: 5px;
+            font-family: sans-serif;
+            opacity: 0;
+            visibility: hidden;
+            
+            
+        }
+        .container:hover div{
+            visibility: visible;
+            opacity: 0.7;  
+        }
+        nav a:visited {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+<body background="img\bac2.jpg" style="background-size: cover; overflow-x: hidden; background-repeat: no-repeat; background-attachment: fixed;">
+    <div ><img src="img\delhi.jpg" style="width:9%; float:left; margin-top: 20px;"> <p style="font-family: cursive; font-size: 80px; margin: 0px;">Delhi</p><p style="font-family:'Times New Roman', Times, serif ; margin: 0px; padding-left: 135px; font-weight: 500; font-size: 20px;">Capital Of India</p></div>
+   <br><br> <nav style="margin-top: 10px; padding: 12px; background-color: rgba(173, 205, 230, 0.368); border-radius: 20px;">
+        <a href="task12home.html" style="padding: 10px 30px 10px 30px; font-family:'Courier New', Courier, monospace; font-weight: 1000;">Home</a>
+        <a href="task12heritage.html" style="padding: 10px 30px 10px 30px; font-family:'Courier New', Courier, monospace; font-weight: 1000;background-color: rgba(218, 182, 142, 0.679);
+        border-radius: 20px;">Heritage</a>
+        <a href="task12history.html" style="padding: 10px 30px 10px 30px; font-family:'Courier New', Courier, monospace; font-weight: 1000;">History</a>
+        <a href="task12hotelbooking.html" style="padding: 10px 30px 10px 30px; font-family:'Courier New', Courier, monospace; font-weight: 1000;">Hotel Booking</a>
+        <a href="task12gallery.html" style="padding: 10px 30px 10px 30px; font-family:'Courier New', Courier, monospace; font-weight: 1000;">Gallery</a>
+    </nav>
+
+    <div class="heritage">
+        <div class="container">
+        <a href="task12_1.html"><img src="img\india gate.jpg" ></a><div>India Gate</div>
+        </div>
+        <div class="container">
+            <a href="task12_2.html"><img src="img\humayun.jpg" ></a><div>Humayun Tomb</div>
+        </div>
+        <div class="container">
+            <a href="task12_5.html"><img src="img\red fort.jpg" ></a><div>Red Fort</div>
+        </div>
+        <div class="container">
+            <a href="task12_3.html"><img src="img\qutub.jpg" ></a><div>Qutub minar</div>
+        </div>
+        <div class="container">
+            <a href="task12_4.html"><img src="img\jama-masjid-delhi.jpg" ></a><div>Jama Masjid</div>
+        </div>
+        <div class="container">
+            <a href="task12_6.html"><img src="img\jantar.jpg" ></a><div>jantar mantar</div>
+        </div>
+        <div class="container">
+            <a href="task12_7.html"><img src="img\parliament.jpg" ></a><div>parliament</div>
+        </div>
+        <div class="container">
+            <a href="task12_8.html"><img src="img\lotus.jpg" ></a><div>lotus temple</div>
+        </div>
+        <div class="container">
+            <a href="task12_9.html"><img src="img\president house.jpg" ></a><div>president house</div>
+        </div>
+        
+        
+       
+        
+    </div>
+
+
+   
+       
+</body>
+</html>
